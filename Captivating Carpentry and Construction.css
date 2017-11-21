@@ -1,0 +1,430 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Sarpanch:500');
+/*----------------------------------------------------------------
+    Branding Colour
+----------------------------------------------------------------*/
+
+#banner h1, 
+#banner h2,
+#banner h3, 
+#banner p,
+#contact p,
+.contact_detail, 
+.contact_detail a, 
+.contact_detail a:hover,
+#services p {
+    color: rgb(255, 255, 255);
+}
+
+
+#contact h3,
+#contact h2,
+#content h2, 
+#content h3,
+#content h4 {
+    color: #ed393c;
+}
+
+#content h4 {
+    color: #b32a31;
+}
+
+#header2b a,
+#header2a,
+#header2a a {
+    color: #ffffff;
+}
+
+body,
+ul li {
+    color: #3b3b3b;
+}
+
+#banner p {
+    font-size: 19px;
+}
+
+#services h3 {
+    color:#fff4f4;
+    padding:5px;
+}
+
+#services p {
+    font-weight:100;
+}
+
+h1,
+h2,
+h3,
+body, 
+ul li,
+.formbuilder-form .row label {
+    font-weight:400;
+}
+
+strong {
+    font-weight: 600;
+}
+
+
+.btn, 
+footer,
+.formbuilder-form input#submit-form,
+.formbuilder-form input#submit-form:hover,
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover {
+   text-transform: uppercase;
+}
+
+#header2b a, 
+footer a:hover,
+.contact_detail a,
+.contact_detail a:hover,
+btn, 
+.btn:hover, 
+.btn:focus, 
+.formbuilder-form input#submit-form,
+.formbuilder-form input#submit-form:hover, 
+.formbuilder-form input#submit-form:focus, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover,
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:focus {
+    text-decoration: none;
+}
+    
+/*----------------------------------------------------------------
+    Form
+----------------------------------------------------------------*/
+
+.form, 
+#extraFormsContainer .modal-dialog{
+    border-radius:0px;;
+    background-color: rgb(252, 252, 252);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+.formbuilder-form .row label {
+    color:#284e1f;
+}
+
+.formbuilder-form .row input, 
+.formbuilder-form .row select, 
+.formbuilder-form .row textarea {
+    color:#000;
+    background-color:#fff;
+    border:1px solid #e8e8e8;
+}
+/*----------------------------------------------------------------
+    Buttons
+----------------------------------------------------------------*/
+
+.btn {
+    color:#fff;
+    border: 2px solid #fff;
+    background-color: rgba(237, 57, 60, 0);
+    border-radius:0px;
+    width:40%;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.formbuilder-form input#submit-form, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form {
+    color:#fff;
+    background-color: #b42930;
+    transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+}
+
+@media (min-width: 711px) {
+    .btn:hover, 
+    .btn:focus, 
+    .btn:active, 
+    .btn.active, 
+    .open>.dropdown-toggle.btn {
+        color: #fff;
+        border:none;
+        background-color: #b42930;
+    }
+} 
+
+.formbuilder-form input#submit-form:hover, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover{
+    background-color: rgba(0, 0, 0,0.4);
+    transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+}
+
+/*----------------------------------------------------------------
+    Custom Styles
+----------------------------------------------------------------*/
+
+h2, 
+h3,
+h4,
+h1 {
+   font-family: "Fjalla One", sans-serif;
+} 
+
+#header2a {
+    font-family: 'Sarpanch', sans-serif;
+}
+.btn,
+.formbuilder-form input#submit-form, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form, 
+.formbuilder-form .row label,
+footer a,
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*----------------------------------------------------------------
+    Header
+----------------------------------------------------------------*/
+
+#header {
+    padding:20px 0 20px 0;
+    background-color: rgba(255, 255, 255);
+    border-top: 5px solid #ed393c;
+}
+
+#header2 {
+    padding-bottom:5px;
+}
+@media (min-width:768px){
+    #header1 img {
+        margin-bottom:-31px
+    }
+
+    #contact {
+        margin-top:-25px;
+    }
+}
+#header2b a {
+    font-size:24px;
+    line-height:20px;
+}
+
+#header2a:before {
+    padding-right:5px;
+    font-size: 30px;
+}
+
+/*----------------------------------------------------------------
+    Banner
+----------------------------------------------------------------*/
+
+.banner_cover {
+    background-color: #000;
+    opacity: 0.3;
+}
+
+#banner hr {
+    width:70%;
+}
+
+/*----------------------------------------------------------------
+    Services
+----------------------------------------------------------------*/
+
+#services {
+    padding: 20px 0 0px 0;
+}
+
+#service1,
+#service2,
+#service3,
+#service4 {
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+/*----------------------------------------------------------------
+    Content
+----------------------------------------------------------------*/
+
+/*----------------------------------------------------------------
+    Gallery
+----------------------------------------------------------------*/
+#gallery {
+    border-top: 2px solid #ed393c;
+    border-bottom: 1px solid #ed393c;
+}
+#gallery img {
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+#gallery, 
+#gallery .container {
+    padding: 0;
+    margin-bottom :0;
+}
+
+#gallery1, 
+#gallery p > img, 
+#gallery p > a, 
+#gallery p.gallery1 > a, 
+#gallery p.gallery1 > img {
+    -webkit-box-flex: 0 0 100%;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding:0;
+}
+
+ @media only screen and (min-width: 767px){
+    #gallery p > img, 
+    #gallery p > a, 
+    #gallery p.gallery1 > a, 
+    #gallery p.gallery1 > img {
+        -webkit-box-flex: 0 0 33.333%;
+        -webkit-flex: 0 0 33.333%;
+        -ms-flex: 0 0 33.333%;
+        flex:  0 0 33.333%;
+        max-width: 33.333%;
+        margin-bottom: 0px;
+    }
+}
+@media only screen and (max-width: 767px) and (min-width: 0px)  {
+    #gallery p img, 
+    #gallery p.gallery3 img, 
+    #gallery p.gallery4 img, 
+    #gallery p.gallery5 img, 
+    #gallery p.gallery6 img {
+        -webkit-box-flex: 0 1 100%;
+        -webkit-flex: 0 1 100%;
+        -ms-flex: 0 1 100%;
+        flex: 0 1 100%;
+        max-width: 100%;
+    }
+    #gallery img {
+        width: 95%;
+    }
+}
+#gallery img ,
+#gallery, 
+#gallery .container, 
+#gallery img {
+		width:100%;
+	}
+#gallery .row, 
+#gallery1, 
+#gallery p > img, 
+#gallery p > a, 
+#gallery p.gallery1 > a, 
+#gallery p.gallery1 > img {
+		margin: 0;
+	}
+#gallery img:hover {
+	opacity: 0.3;
+}
+/*----------------------------------------------------------------
+  Contact 
+----------------------------------------------------------------*/
+blockquote {
+    background-color: #fff;
+    border-color:#ed393c;
+}
+
+.contact_address {
+    margin-bottom: 10px;
+}
+
+/*----------------------------------------------------------------
+    Hide Blocks
+----------------------------------------------------------------*/
+
+#contact2d,
+#content2b,
+#contact1b {
+    display:none;
+}
+
+/*----------------------------------------------------------------
+    Footer
+----------------------------------------------------------------*/
+footer *, 
+footer a , 
+footer {
+    color: #fff;
+}
+footer {
+    background-color: #373737;
+    padding: 10px 0 10px;
+}
+
+/*----------------------------------------------------------------
+    Media Queries
+----------------------------------------------------------------*/
+@media (max-width: 991px) {
+    #service1, #service2, #service3, #service4 {
+        padding-bottom:0px;
+    }
+}
+@media only screen and (max-width: 767px) and (min-width: 0px)  {  
+    #banner1, #banner p,.btn{
+        text-align:center;
+    }
+    #banner h1 {
+        font-size:45px;
+    }
+    #header1 img {
+        margin-bottom:-7px
+    }
+    #header {
+        padding-top: 25px;
+    }
+}
+@media (max-width: 600px) {
+    .btn{
+        width:100%;
+        word-wrap: break-word;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+@media (min-width: 0px) {
+    .btn {
+        margin-top: 10px;
+    }
+}
+@media (max-width: 767px) {
+    #service3 {
+        clear:left;
+    }
+}
+@media (max-width: 480px) {  
+    #banner h1 {
+        font-size:40px;
+    }
+    #header2a {
+        font-size:35px;
+    }
+    #header2a:before {
+        font-size:26px;
+    }
+
+}
+/*- Animation & Extras-*/
+#banner1 {
+    animation:move 2s ease;
+}
+
+@-webkit-keyframes move {
+    from {transform: scale(0.8);opacity:0;}
+    to {transform: scale(1.0);opacity:1;}
+}
+
+.btn:hover, 
+.btn:focus, 
+.btn:active, 
+.btn.active, 
+.open>.dropdown-toggle.btn,
+#service1:hover,#service2:hover,#service3:hover,#service4:hover {
+    transform: scale(1.1);
+    transition: all 200ms ease-in;
+}
